@@ -12,7 +12,7 @@ class CalculatorLogic:
 
     def calculate(self):
         try:
-            result = str(eval(self.display.get()))  # Evaluate the expression entered
+            str(eval(self.display.get()))  # Evaluate the expression entered
             self.display.delete(0, tk.END)
             self.display.insert(0, result)
         except Exception as e:
