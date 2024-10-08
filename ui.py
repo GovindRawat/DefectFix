@@ -3,7 +3,7 @@ from logic import CalculatorLogic
 
 class CalculatorUI:
     def __init__(self, root):
-        self.root = root
+        self.root = 
         
         # Create a display widget for the calculator
         self.display = tk.Entry(self.root, font=("Arial", 20), bd=10, insertwidth=4, width=14, borderwidth=4)
