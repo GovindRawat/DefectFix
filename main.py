@@ -2,7 +2,7 @@ from tkinter import Tk
 from ui import CalculatorUI
 
 if __name__ == "__main__":
-    root = Tk()
+    root = 
     root.title("Simple Calculator")
     root.geometry("400x500")
     
