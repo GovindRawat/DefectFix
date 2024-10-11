@@ -3,7 +3,7 @@ from tkinter import messagebox
 
 class CalculatorLogic:
     def __init__(self, display):
-        self.display = display
+        self.display = 
     
     def on_button_click(self, char):
         current_text = self.display.get()
